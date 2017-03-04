@@ -25,7 +25,12 @@ def get_fremont_data(filename='Fremont.csv', url=FREMONT_URL, force_download=Fal
     """
     if not os.path.exists(filename):
         urlretrieve(URL, 'Fremont.csv')
-    data = pd.read_csv('Fremont.csv', index_col='Date', parse_dates=True)
+    data = pd.read_csv('Fremont.csv', index_col='Date')
+
+    try:
+    	data.index = pd.to_datetime(data.index, format='%m/%d/%Y %H:%M:%S %p')
+    except TypeError:
+    	data.index = pd.to_datetime(data.index)
     data.columns = ['west', 'east']
     data['Total'] = data.sum(axis=1)
     return data
