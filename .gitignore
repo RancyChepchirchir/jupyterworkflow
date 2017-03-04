@@ -87,3 +87,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# data
+Fremont.csv
+
+#.ipynb_checkpoints
+.ipynb_checkpoints/
