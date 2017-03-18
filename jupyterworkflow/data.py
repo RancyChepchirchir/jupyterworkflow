@@ -24,7 +24,7 @@ def get_fremont_data(filename='Fremont.csv', url=FREMONT_URL, force_download=Fal
 	The fremont bridge data
     """
     if not os.path.exists(filename):
-        urlretrieve(URL, 'Fremont.csv')
+        urlretrieve(FREMONT_URL, 'Fremont.csv')
     data = pd.read_csv('Fremont.csv', index_col='Date')
 
     try:
