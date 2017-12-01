@@ -4,10 +4,9 @@
 
 we will cover the following recipes:
 
-- ![](http://jupyter.org/assets/main-logo.svg)[Jupyter Notebook](http://jupyter.org/) 101
-- ![](https://pandas.pydata.org/_static/pandas_logo.png)[Pandas](http://pandas.pydata.org/) 101 
-- ![](https://www.python.org/static/img/python-logo.png)[Python](https://www.python.org/) 101
-- ![](http://www.numpy.org/_static/numpy_logo.png)[Numpy](http://www.numpy.org/) 101
-- ![](https://matplotlib.org/_static/logo2.svg)[Matplotlib](https://matplotlib.org/) 101
-- ![](http://scikit-learn.org/stable/_static/scikit-learn-logo-small.png)[scikit-learn](http://scikit-learn.org/stable/) 101
-
+- [![](http://jupyter.org/assets/main-logo.svg | height=20)](http://jupyter.org/)
+- [![](https://pandas.pydata.org/_static/pandas_logo.png | height=20)](http://pandas.pydata.org/)
+- [![](https://www.python.org/static/img/python-logo.png | height=20)](https://www.python.org/)
+- [![](http://www.numpy.org/_static/numpy_logo.png | height=20)](http://www.numpy.org/)
+- [![](https://matplotlib.org/_static/logo2.svg | height=20)](https://matplotlib.org/)
+- [![](http://scikit-learn.org/stable/_static/scikit-learn-logo-small.png | height=20)](http://scikit-learn.org/stable/)
