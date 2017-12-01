@@ -1,6 +1,5 @@
 import os
 from urllib.request import urlretrieve
-
 import pandas as pd
 
 FREMONT_URL = 'https://data.seattle.gov/api/views/65db-xm6k/rows.csv?accessType=DOWNLOAD'
